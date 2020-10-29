@@ -27,8 +27,8 @@ jobs:
       env:
         CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
         CONSUMER_SECRET:  ${{ secrets.CONSUMER_SECRET }} 
-        ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
-        ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
       run: |
         pip install pytest
         pytest
