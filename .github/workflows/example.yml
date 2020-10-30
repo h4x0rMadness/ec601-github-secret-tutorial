@@ -30,9 +30,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
         run: |
-          echo $CONSUMER_KEY
-          echo $CONSUMER_SECRET
-          echo $ACCESS_TOKEN
-          echo $ACCESS_TOKEN_SECRET
           pip install pytest
           pytest
