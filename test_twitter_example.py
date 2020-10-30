@@ -14,11 +14,6 @@ class MyTestCase(unittest.TestCase):
         ck = os.getenv('CONSUMER_KEY')
         cs = os.getenv('CONSUMER_SECRET')
 
-        self.assertEqual("1171844680603951104-HkluSJhInuGyqhdK6Xz1sTpnRB0y7e", at)
-        self.assertEqual("aZWP7SsoRda3zWPYxH5yRDUSxLioWvtpKvFar8UR2kKl2", ats)
-        self.assertEqual("rllmb3xW0SYqmv0f1fZok9q8T", ck)
-        self.assertEqual("w69Hk40uV9O25DjOGO36in4E4pqPpZbHASZogbB9gHfzv4r87s", cs)
-
 
         res = twitter_example.fecth_random_tweets(ck, cs, at, ats)
 
