@@ -2,6 +2,9 @@
 
 This is a tutorial to solve the problem that your script may need to contain your valuable API keys and secrets.
 
+For more information, you can check out the `twitter_example.py`, `test_twitter_example.py` and `Github Workflow file` in this repository.
+Also, check this github documentation for [Github Secrets](https://docs.github.com/cn/free-pro-team@latest/actions/reference/encrypted-secrets)
+
 ## Step 1
 
 -   Go to the `repository `where you want to separate your keys from the script
@@ -64,4 +67,4 @@ So far, you have set up the keys in this repo, and you don’t have to worry abo
 
 
 
-For more information, you can check out the `twitter_example.py`, `test_twitter_example.py` and `Github Workflow file` in this repository.
+
